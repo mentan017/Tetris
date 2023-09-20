@@ -1,0 +1,36 @@
+h1{
+    width: max-content;
+    font-size: 8rem;
+    margin: 0 auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.tetris-container{
+    width: 800px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+#start-btn{
+    background-color: green;
+    width: max-content;
+    color: white;
+    font-size: 3rem;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    margin: 1rem auto;
+    cursor: pointer;
+}
+#game-container{
+    width: max-content;
+    margin: auto;
+    border: solid 2px black;
+}
+.row{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+.box{
+    width: 40px;
+    height: 40px;
+    border: solid 1px lightgray;
+}

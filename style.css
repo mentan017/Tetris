@@ -34,3 +34,6 @@ h1{
     height: 40px;
     border: solid 1px lightgray;
 }
+.active{
+    border: solid 1px blue;
+}
